@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form border</title>
+	<style>
+		* {
+			margin: auto;
+		}
+		body{
+			margin: 100px;
+		}
+	</style>
+
+</head>
+<body>
+<form>
+	<table border="5">
+		<tr>
+			<td><label for="username">Username :</label></td>
+			<td><input type="text" id"username"></td>
+		</tr>
+		<tr>
+			<td><label for="password">Password :</label></td>
+			<td><input type="password" id="password"></td>
+		</tr>
+		<tr>
+			<td colspan="2"><input type="radio" id="pria" name="jeniskelamin"><label for="pria">Pria</label>
+		<input type="radio" id="wanita"name="jeniskelamin"><label for="wanita">Wanita</label></td>
+		</tr>
+		<tr>
+				<td colspan="2"><input type="checkbox" id="menyanyi"><label for="menyanyi">Menyanyi</label>
+	<input type="checkbox" id="olahraga"><label for="olahraga">Olahraga</label>
+	<input type="checkbox" id="ngoding"><label for="ngoding">Ngoding</label></td>
+		</tr>
+		<tr>
+			<td>Asal Daerah</td>
+			<td>
+	<select>
+		<option>Wakanda</option>
+		<option>Bantar gebang</option>
+		<option>Puncak</option>
+	</select></td>
+		</tr>
+		<tr>
+			<td>Pesan</td>
+			<td><textarea></textarea></td>
+		</tr>
+		<tr>
+			<td colspan="2"><button type="submit">Submit</button></td>
+		</tr>
+ 	</table>
+</form>
+</body>
+</html>
